@@ -1,3 +1,3 @@
 # PyBirdFinder
 
-Script for working with data about birds.
+Script for work with data about birds.
