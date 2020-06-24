@@ -35,6 +35,13 @@ while True:
         print(i)
     logging.debug('search ended')
     print('Поиск закончен.')
+    user_input = input('Введите номер, чтобы воспроизвести аудио: ')
+    if user_input == '':
+        continue
+    try: 
+        audio_num = int(user_input)
+        print(f'Воспроизводится mp3 номер {audio_num}')
+    except: continue
 
 print('Спасибо за использование Поиска Птиц! До свидания!')
 logging.debug('End of program')
